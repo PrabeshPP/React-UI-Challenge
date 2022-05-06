@@ -56,6 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    ;
 }
 
 .boxButton .button1{
@@ -87,6 +88,122 @@
     justify-content: space-around;
     cursor: pointer;
 }
+
+.footerBox11{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.box-comment{
+    position: relative;
+    left: 2%;
+    top: 13%;
+    height: 70%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.543);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.box-comment .box111{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+
+}
+
+.box111 .person{
+    height: 60%;
+    width: 20%;
+    color: white;
+    
+}
+
+.box111 .comment{
+    color: white;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+}
+
+.comment p{
+   
+    margin-top: -8%;
+}
+
+.comment span{
+    color: #3cff00;
+}
+
+.arrowRight{
+    color: white;
+    height: 40%;
+    width: 20%;
+   
+}
+
+.box-comment .box222{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+
+}
+
+.box222 .btc{
+    color: white;
+    
+}
+
+.btc p{
+    margin: 0%;
+}
+
+.box222 .verticalLine{
+    height: 70%;
+    border-left: 2px solid greenyellow;
+   
+}
+.box222 .bitcoin{
+    height: 60%;
+    width: 20%;
+    color: orange;
+    
+}
+
+.box222 .change{
+    color: #3cff00;
+    display: flex;
+    flex-direction: column;
+}
+
+.change .change11{
+    display: flex;
+    align-items: center;
+}
+
+.change span{
+    margin: 0%;
+}
+
+
 
 
 
